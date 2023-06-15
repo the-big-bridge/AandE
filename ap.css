@@ -1,0 +1,284 @@
+/*this is for the apollo inventory page styling-------------------------------------------------------------------*/
+
+/*overall styling---------------------------------------------------------------------------------*/
+body {
+    color: white;
+    background-color: black;
+    font-family: 'COnstantia', sans-serif;
+    margin: 0;
+    padding: 35px;
+    align-items: center;
+  }
+
+  a {
+    color: white;
+  }
+
+  /*the welcome section----------------------------------------------------------------------------*/
+  #welcome {
+    background-image: url('ap_welcome.jpg'); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center top;
+    /*height: 100vh; */
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+
+    padding-top: 0; /* Remove top padding */
+    margin-top: 0; /* Remove top margin */
+    overflow: hidden; /* Hide overflow to remove potential spacing */
+
+    font-size: 35px;
+    
+  }
+
+/*Persuasion section--------------------------------------------------------------------------------*/
+
+
+#Persuasion {
+    font-family: 'Constantia', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 530px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('persuasion.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    
+  }
+  
+  #Persuasion .hidden-text {
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #Persuasion:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  #Persuasion.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /*Theology section--------------------------------------------------------------------------------*/
+
+
+#Theology {
+    font-family: 'Constantia', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('theology.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  #Theology .hidden-text {
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #Theology:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  #Theology.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /*Psychology section--------------------------------------------------------------------------------*/
+
+
+#Psychology {
+    font-family: 'Constantia', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('psychology.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  #Psychology .hidden-text {
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #Psychology:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  #Psychology.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /*Linguistics section--------------------------------------------------------------------------------*/
+
+
+#Linguistics {
+    font-family: 'Constantia', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('linguistics.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  #Linguistics .hidden-text {
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #Linguistics:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  #Linguistics.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+/*Nietschez section--------------------------------------------------------------------------------*/
+
+
+#Nietschez {
+    font-family: 'Constantia', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('nietschez.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  #Nietschez .hidden-text {
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #Nietschez:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  #Nietschez.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /*Political section--------------------------------------------------------------------------------*/
+
+
+#Political {
+    font-family: 'Constantia', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('political.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  #Political .hidden-text {
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #Political:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  #Political.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /*footer section-------------------------------------------------------------------------*/
+
+  footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+
+
+
+  
+  
+  
+
