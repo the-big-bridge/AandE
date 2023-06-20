@@ -1,0 +1,101 @@
+/* Overall styling */
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Constantia', sans-serif;
+    margin: 0;
+    padding: 35px;
+    align-items: center;
+
+    line-height: 2;
+  }
+  
+  /* The welcome section */
+  #welcome {
+    background-image: url('linguistics.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+    overflow: hidden;
+    font-size: 35px;
+  }
+  
+  /* The article section */
+  #article {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 600px;
+  
+    padding-bottom: 100px;
+  }
+  
+  /*the quote section*/
+  
+  #quote {
+    font-family: 'Constantia', sans-serif;
+    font-size: 35px;
+    text-align: center;
+  
+    margin-left: 250px;
+    margin-right: 250px;
+  
+  }
+  
+  .styled-line {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+  }
+  
+  
+  /*second half*/
+
+  #passage {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    /*margin-top: 600px;*/
+  
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  
+  
+  mark {
+    font-style: italic;
+    background-color: transparent;
+  }
+  
+  
+  ul {
+    list-style: circle; /* disc, circle, square, etc. */
+  }
+  
+
+  
+  
+  /* The footer section */
+  footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
