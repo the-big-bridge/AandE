@@ -1,0 +1,92 @@
+
+/* Overall styling */
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Constantia', sans-serif;
+    margin: 0;
+    padding: 35px;
+    align-items: center;
+  }
+
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('spiral.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Ensures the background stays behind other content */
+  }
+  
+  .content {
+    color: white;
+  }
+  
+
+
+  /* The welcome section */
+  #welcome {
+    
+    text-align: center;
+    justify-content: center;
+    
+    font-size: 35px;
+  }
+
+  
+  
+  /* The article section */
+  #article {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+  
+  
+    line-height: 2;
+  }
+
+  mark {
+    text-align: right;
+    position: right;
+
+    display: flex;
+    justify-content: flex-end;
+
+    color: white;
+    background-color: transparent;
+  }
+
+  /*h[starts-with^="h"] {
+    text-align: right;
+  }*/
+  
+  
+  /*the quote section*/
+  
+ 
+  
+  .styled-line {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+  }
+  
+  
+  
+  
+  
+
+  
+  
+  /* The footer section */
+  footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  

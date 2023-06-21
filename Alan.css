@@ -1,0 +1,311 @@
+/* Overall styling */
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Constantia', sans-serif;
+    margin: 0;
+    padding: 35px;
+    align-items: center;
+  }
+  
+  /* The welcome section */
+  #welcome {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+   
+    font-size: 35px;
+  }
+  
+  .styled-line {
+    border: none;
+    border-top: 2px solid black;
+
+    width: 700px;
+  }
+  
+   
+  /* The one section */
+  #one {
+    margin-top: 50px;
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+    display: flex;
+  }
+  
+  #one .container {
+    justify-items: center;
+    align-items: center;
+  }
+
+  #one .text {
+    /*flex: 1;
+    /*padding-right: 20px; /* Adjust padding-right instead of padding-left */
+    /*text-align: left;*/
+    float: right;
+    margin-right: 0;
+    width: 600px;
+  }
+  
+  
+
+  #one .image {
+    /*flex: 1;*/
+    float: left;
+    position: left;
+    background-image: url('sci\ dots.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 600px; /* Adjust the width as per your needs */
+    height: 900px; /* Adjust the height as per your needs */
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  
+  
+  
+  
+  
+  #two {
+    margin-top: 0;
+
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+
+    padding-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  #two .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #two .text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  #two .image {
+    flex: 1;
+    text-align: right;
+    background-image: url('sci\ person.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px; /* Adjust the width as per your needs */
+    height: 900px; /* Adjust the height as per your needs */
+  }
+
+
+  
+  #three {
+
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+  
+    padding-bottom: 100px;
+    
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+    display: flex;
+  }
+  
+  #three .container {
+    justify-items: center;
+    align-items: center;
+  }
+
+  #three .text {
+    /*flex: 1;
+    /*padding-right: 20px; /* Adjust padding-right instead of padding-left */
+    /*text-align: left;*/
+    float: right;
+    margin-right: 0;
+    width: 600px;
+  }
+  
+
+  #three .image {
+    /*flex: 1;*/
+    float: left;
+    position: left;
+    background-image: url('eye.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 600px; /* Adjust the width as per your needs */
+    height: 900px; /* Adjust the height as per your needs */
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #four {
+    margin-top: 0;
+
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+
+    padding-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  #four .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #four .text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  #four .image {
+    flex: 1;
+    text-align: right;
+    background-image: url('chemicals.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px; /* Adjust the width as per your needs */
+    height: 900px; /* Adjust the height as per your needs */
+  }
+
+  #five {
+
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+
+    padding-bottom: 100px;
+    
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+    display: flex;
+  }
+  
+  #five .container {
+    justify-items: center;
+    align-items: center;
+  }
+
+  #five .text {
+    /*flex: 1;
+    /*padding-right: 20px; /* Adjust padding-right instead of padding-left */
+    /*text-align: left;*/
+    float: right;
+    margin-right: 0;
+    width: 600px;
+  }
+  
+  
+
+  #five .image {
+    /*flex: 1;*/
+    float: left;
+    position: left;
+    background-image: url('trial.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 600px; /* Adjust the width as per your needs */
+    height: 900px; /* Adjust the height as per your needs */
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #six {
+    margin-top: 0;
+
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+
+
+    padding-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  #six .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #six .text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  #six .image {
+    flex: 1;
+    text-align: right;
+    background-image: url('red fog.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px; /* Adjust the width as per your needs */
+    height: 900px; /* Adjust the height as per your needs */
+  }
+
+  #seven {
+
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+
+    padding-bottom: 100px;
+    
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+    display: flex;
+  }
+  
+  #seven .container {
+    justify-items: center;
+    align-items: center;
+  }
+
+  #seven .text {
+    /*flex: 1;
+    /*padding-right: 20px; /* Adjust padding-right instead of padding-left */
+    /*text-align: left;*/
+    float: right;
+    margin-right: 0;
+    width: 600px;
+  }
+  
+  
+
+  #seven .image {
+    /*flex: 1;*/
+    float: left;
+    position: left;
+    background-image: url('water\ boat.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 600px; /* Adjust the width as per your needs */
+    height: 900px; /* Adjust the height as per your needs */
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+
+
+
+
+  
+  /* The footer section */
+  footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
